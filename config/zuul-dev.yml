@@ -20,8 +20,8 @@ eureka:
 #    user-service: /user-service/**
 #    order-service: /order-service/**
 ribbon:
-  ConnectTimeout: 1000
-  ReadTimeout: 1000
+  ConnectTimeout: 2000
+  ReadTimeout: 2000
   MaxAutoRetriesNextServer: 1
   MaxAutoRetries: 1
 hystrix:
